@@ -61,7 +61,7 @@ button {
   padding-left: 40px;
   padding-right:50px;
   font-size: 1.3vw;
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: 10px;
 }
 button:hover {
@@ -117,6 +117,7 @@ legend {
 input:focus {
   background-color: rgb(104, 215, 123);
   color: white;
+
 }
 .acct {
   padding-left: 20px;
