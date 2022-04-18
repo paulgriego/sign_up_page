@@ -22,19 +22,20 @@
     </p>
     <form id="myform" method="get">
       <fieldset>
-        <legend>Let's do this!</legend>
+        <p class="small">Let's do this! <br>Fields marked with an asterisk (*) are required </p>
+        
         <ul>
-          <li><label for="firstname">First Name</label><input type="text" name="" id="" required></li>
-          <li><label for="lastname">Last Name</label><input type="text" name="" id="" required></li>
+          <li><label for="firstname">First Name*</label><input type="text" name="" id="" required></li>
+          <li><label for="lastname">Last Name</label><input type="text" name="" id=""></li>
         </ul>
         <ul>
-          <li><label for="email">Email</label><input type="email" name="" id="" required></li>
-          <li><label for="phonenumber">Phone Number</label><input type="tel" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          <li><label for="email">Email*</label><input type="email" name="" id="" required></li>
+          <li><label for="phonenumber">Phone Number*</label><input type="tel" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             required> <small style="color:rgb(104, 215, 123);">Format: NPA-NXX-XXXX</small></li>
         </ul>
         <ul>
-          <li><label for="passowrd">Password</label><input type="password" name="" id="" minlength="8" required><small style="color:rgb(104, 215, 123);">Min: 8 Characters</small></li>
-          <li><label for="confirmpsd"></label>Confirm Password<input type="password" name="" id="" minlength="8" required></li>
+          <li><label for="passowrd">Password*</label><input type="password" name="" id="" minlength="8" required><small style="color:rgb(104, 215, 123);">Min: 8 Characters</small></li>
+          <li><label for="confirmpsd"></label>Confirm Password*<input type="password" name="" id="" minlength="8" required></li>
         </ul>
       </fieldset>
     </form>
