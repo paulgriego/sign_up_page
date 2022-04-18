@@ -20,7 +20,7 @@
   <div class="leftside">
     <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started. <br><br>You <em>know you</em> want to.
     </p>
-    <form action="" method=" post">
+    <form id="myform" method="get">
       <fieldset>
         <legend>Let's do this!</legend>
         <ul>
@@ -33,11 +33,11 @@
         </ul>
         <ul>
           <li><label for="passowrd">Password</label><input type="password" name="" id="" "></li>
-          <li><label for="confirmpsd"></label>Confirm Password<input type="password" name="" id=""></li>
+          <li><label for="confirmpsd"></label>Confirm Password<input type="password" name="" id="" required></li>
         </ul>
       </fieldset>
     </form>
-    <button type="submit">Create Account</button>
+    <button form="myform" type="submit">Create Account</button>
     <p>Already have an account? <a href="">Log in</a></p>
   </div>
   </div>
