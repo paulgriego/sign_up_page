@@ -1,0 +1,60 @@
+ul {
+  display: flex;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-bottom: 20px; 
+  font-weight: 100;
+}
+
+form {
+  display: flex;
+}
+fieldset {
+  border: 0px;
+  background-color: white;
+  width: 100%;
+  box-shadow: 5px 10px #888888:
+  
+  
+  
+}
+.webBody{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 0;
+  width: 100%;
+  padding: 0%;
+
+}
+.leftside {
+  margin-left: 50%;
+  margin-top: 10%;
+  
+
+  
+}
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+input {
+  height: 30px;
+}
+
+button {
+  
+  background-color: rgb(104, 104, 215);
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right:50px;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
