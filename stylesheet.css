@@ -16,8 +16,7 @@ fieldset {
   border: 0px;
   background-color: white;
   width: 100%;
-  box-shadow: 5px 10px #888888:
-  
+ 
   
   
 }
@@ -31,22 +30,26 @@ fieldset {
 }
 .leftside {
   margin-left: 50%;
-  margin-top: 10%;
+  padding-top: 10%;
   
 
   
 }
 body {
   background-color: rgb(241, 241, 241);
+  padding: 0%;
+  margin: 0%;
 }
 
 input {
   height: 30px;
+ 
+
 }
 
 button {
   
-  background-color: rgb(104, 104, 215);
+  background-color: rgb(104, 215, 123);
   color: white;
   font-size: medium;
   border-radius: 5px;
@@ -54,7 +57,30 @@ button {
   padding-left: 40px;
   padding-right:50px;
   font-size: 20px;
-  margin-left: 8px;
+  margin-left: 15px;
   margin-top: 10px;
 }
+.image {
+  display: flex;
+  background-image: url(background.jpeg);
+  background-repeat: repeat;
+  margin-right: 50%;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  margin-top: 0;
+}
 
+p {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.black {
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.692);
+
+}
